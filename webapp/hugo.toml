@@ -1,0 +1,69 @@
+baseURL = 'https://liamleirs.github.io/'
+locale = 'en-us'
+title = 'Liam Leirs'
+theme = 'PaperMod'
+paginate = 1
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+  
+[params]
+  disableSpecial1stPost = true
+  mainSections = []
+
+  [params.profileMode]
+    enabled = true
+    title = "Liam Leirs"
+    subtitle = "Master's Student in Data Science & AI"
+    imageUrl = "/images/profile.png"
+    imageTitle = "Liam Leirs"
+    imageWidth = 220
+    imageHeight = 220
+
+  [[params.profileMode.buttons]]
+    name = "Projects"
+    url = "/projects"
+
+  [[params.profileMode.buttons]]
+    name = "Research"
+    url = "/research"
+
+  [[params.profileMode.buttons]]
+    name = "Resume"
+    url = "/resume"
+
+  [[params.profileMode.buttons]]
+    name = "Contact"
+    url = "/contact"
+  
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 50
