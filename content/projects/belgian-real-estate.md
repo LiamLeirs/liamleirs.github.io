@@ -1,7 +1,7 @@
 ---
 title: "Belgian Real Estate Intelligence Platform"
 date: 2026-06-16
-draft: false
+draft: true
 tags: ["Machine Learning", "Data Science", "Web Scraping"]
 ---
 
