@@ -4,7 +4,7 @@ title: "Resume"
 
 You can download my CV here:
 
-[Download CV](/files/CV.pdf)
+[Download CV](/files/Liam_Leirs_CV.pdf)
 
 ## Education
 
